@@ -30,6 +30,8 @@ seg [] = error "A lista precisa ter pelo menos dois elementos."
 seg [_, x] = x 
 seg (x:y:xs) = y
 
+-- Exercício 6
+
 -- Main
 main :: IO ()
 main = do
